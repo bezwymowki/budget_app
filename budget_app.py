@@ -93,14 +93,13 @@ def create_spend_chart(categories):
                 line += f" {' '} "
         print(line)
 
-#
-food = Category("food")
-clothes = Category("clothes")
-food.deposit(1000)
-food.withdraw(10, "cake")
-food.transfer(500, clothes)
-clothes.withdraw(200, "jeans")
+#Zmienne wprowadzone do testowania programu
+#food = Category("food")
+#clothes = Category("clothes")
+#food.deposit(1000)
+#food.withdraw(10, "cake")
+#food.transfer(500, clothes)
+#clothes.withdraw(200, "jeans")
 
-category_list = [food, clothes]
-
-create_spend_chart(category_list)
+#category_list = [food, clothes]
+#create_spend_chart(category_list)
